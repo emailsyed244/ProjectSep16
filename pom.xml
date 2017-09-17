@@ -26,6 +26,7 @@
     <aspectj.version>1.8.4</aspectj.version>
 
   </properties>
+<!--
   <repositories>
     <repository>
       <id>project.local</id>
@@ -33,6 +34,7 @@
       <url>file:///${basedir}/repo</url>
     </repository>
   </repositories>
+-->
   <build>
     <plugins>
       <plugin>
@@ -178,11 +180,13 @@
       <artifactId>slf4j-api</artifactId>
       <version>1.7.6</version>
     </dependency>
+<!--
     <dependency>
       <groupId>net.cucumber</groupId>
       <artifactId>cucumber-reporting</artifactId>
       <version>1.2</version>
     </dependency>
+-->
 
   </dependencies>
 
