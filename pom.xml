@@ -15,7 +15,7 @@
     <cucumber-jvm_version>1.2.2</cucumber-jvm_version>
     <selenium_version>3.5.3</selenium_version>
     <spring_version>4.2.2.RELEASE</spring_version>
-    <driverType>firefox</driverType>
+    <driverType>chrome</driverType>
     <reportBuilder>false</reportBuilder>
     <baseTest>yahoo</baseTest>
     <project.build.directory>${basedir}\target</project.build.directory>
