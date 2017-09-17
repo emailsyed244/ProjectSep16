@@ -1,0 +1,31 @@
+{
+  "hosts" : [ {
+    "title" : "UC181137-TPL-A",
+    "threads" : [ {
+      "title" : "10388@UC181137-TPL-A.main(1)",
+      "testCases" : [ {
+        "uid" : "265b6429aa1a17ee",
+        "name" : "Searching for cucumber correctly",
+        "title" : "Searching for cucumber correctly",
+        "time" : {
+          "start" : 1505582430566,
+          "stop" : 1505582446913,
+          "duration" : 16347
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "45dbdf6906b2fbf1",
+        "name" : "Searching for cucumber NOT Correctly",
+        "title" : "Searching for cucumber NOT Correctly",
+        "time" : {
+          "start" : 1505582447030,
+          "stop" : 1505582453889,
+          "duration" : 6859
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  } ]
+}

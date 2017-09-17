@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1505582427924" stop="1505582453894" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a google user, I want to search for cucumber so that I can find it correctly</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1505582430566" stop="1505582446913" status="passed">
+            <name>Searching for cucumber correctly</name>
+            <title>Searching for cucumber correctly</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1505582440950" stop="1505582441650" status="passed">
+                    <name>Given I goto the search site</name>
+                    <title>Given I goto the search site</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1505582441652" stop="1505582446481" status="passed">
+                    <name>When I search for "Cucumber"</name>
+                    <title>When I search for "Cucumber"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1505582446493" stop="1505582446879" status="passed">
+                    <name>Then I should find the first link for "Cucumber" official site</name>
+                    <title>Then I should find the first link for "Cucumber" official site</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Searching for cucumber correctly"/>
+                <label name="feature" value="As a google user, I want to search for cucumber so that I can find it correctly"/>
+                <label name="host" value="UC181137-TPL-A"/>
+                <label name="thread" value="10388@UC181137-TPL-A.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1505582447030" stop="1505582453889" status="failed">
+            <name>Searching for cucumber NOT Correctly</name>
+            <title>Searching for cucumber NOT Correctly</title>
+            <description type="text"></description>
+            <failure>
+                <message>AssertionError: Cucumber not found..!</message>
+                <stack-trace>java.lang.AssertionError: Cucumber not found..!
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.sep16.step_definition.CommonSteps.i_should_find_the_first_link_for_cucumber_official_site(CommonSteps.java:41)
+	at ✽.Then I should find the first link for "Cucumber1" official site(features/SearchTest.feature:13)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1505582448864" stop="1505582448868" status="passed">
+                    <name>Given I goto the search site</name>
+                    <title>Given I goto the search site</title>
+                </step>
+                <step start="1505582448868" stop="1505582452549" status="passed">
+                    <name>When I search for "Cucumber"</name>
+                    <title>When I search for "Cucumber"</title>
+                </step>
+                <step start="1505582452549" stop="1505582452879" status="failed">
+                    <name>Then I should find the first link for "Cucumber1" official site</name>
+                    <title>Then I should find the first link for "Cucumber1" official site</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="23593cf0-1530-4386-8065-4ae44ab559bd-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Searching for cucumber NOT Correctly"/>
+                <label name="feature" value="As a google user, I want to search for cucumber so that I can find it correctly"/>
+                <label name="host" value="UC181137-TPL-A"/>
+                <label name="thread" value="10388@UC181137-TPL-A.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a google user, I want to search for cucumber so that I can find it correctly"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,101 @@
+{
+  "uid" : "265b6429aa1a17ee",
+  "name" : "Searching for cucumber correctly",
+  "title" : "Searching for cucumber correctly",
+  "time" : {
+    "start" : 1505582430566,
+    "stop" : 1505582446913,
+    "duration" : 16347
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "ff81b04b78844000",
+    "name" : "As a google user, I want to search for cucumber so that I can find it correctly",
+    "title" : "As a google user, I want to search for cucumber so that I can find it correctly"
+  },
+  "steps" : [ {
+    "name" : "Given I goto the search site",
+    "title" : "Given I goto the search site",
+    "time" : {
+      "start" : 1505582440950,
+      "stop" : 1505582441650,
+      "duration" : 700
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I search for \"Cucumber\"",
+    "title" : "When I search for \"Cucumber\"",
+    "time" : {
+      "start" : 1505582441652,
+      "stop" : 1505582446481,
+      "duration" : 4829
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I should find the first link for \"Cucumber\" official site",
+    "title" : "Then I should find the first link for \"Cucumber\" official site",
+    "time" : {
+      "start" : 1505582446493,
+      "stop" : 1505582446879,
+      "duration" : 386
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Searching for cucumber correctly"
+  }, {
+    "name" : "host",
+    "value" : "UC181137-TPL-A"
+  }, {
+    "name" : "thread",
+    "value" : "10388@UC181137-TPL-A.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "As a google user, I want to search for cucumber so that I can find it correctly"
+  }, {
+    "name" : "feature",
+    "value" : "As a google user, I want to search for cucumber so that I can find it correctly"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

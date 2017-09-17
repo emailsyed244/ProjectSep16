@@ -1,0 +1,29 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "f1b130304d721d19",
+      "failure" : {
+        "message" : "AssertionError: Cucumber not found..!",
+        "stackTrace" : "java.lang.AssertionError: Cucumber not found..!\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat com.sep16.step_definition.CommonSteps.i_should_find_the_first_link_for_cucumber_official_site(CommonSteps.java:41)\n\tat ✽.Then I should find the first link for \"Cucumber1\" official site(features/SearchTest.feature:13)\n"
+      },
+      "testCases" : [ {
+        "uid" : "45dbdf6906b2fbf1",
+        "name" : "Searching for cucumber NOT Correctly",
+        "title" : "Searching for cucumber NOT Correctly",
+        "time" : {
+          "start" : 1505582447030,
+          "stop" : 1505582453889,
+          "duration" : 6859
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ ]
+  } ]
+}

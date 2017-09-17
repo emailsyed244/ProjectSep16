@@ -1,0 +1,110 @@
+{
+  "uid" : "45dbdf6906b2fbf1",
+  "name" : "Searching for cucumber NOT Correctly",
+  "title" : "Searching for cucumber NOT Correctly",
+  "time" : {
+    "start" : 1505582447030,
+    "stop" : 1505582453889,
+    "duration" : 6859
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 3
+  },
+  "failure" : {
+    "message" : "AssertionError: Cucumber not found..!",
+    "stackTrace" : "java.lang.AssertionError: Cucumber not found..!\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat com.sep16.step_definition.CommonSteps.i_should_find_the_first_link_for_cucumber_official_site(CommonSteps.java:41)\n\tat ✽.Then I should find the first link for \"Cucumber1\" official site(features/SearchTest.feature:13)\n"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "suite" : {
+    "uid" : "ff81b04b78844000",
+    "name" : "As a google user, I want to search for cucumber so that I can find it correctly",
+    "title" : "As a google user, I want to search for cucumber so that I can find it correctly"
+  },
+  "steps" : [ {
+    "name" : "Given I goto the search site",
+    "title" : "Given I goto the search site",
+    "time" : {
+      "start" : 1505582448864,
+      "stop" : 1505582448868,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I search for \"Cucumber\"",
+    "title" : "When I search for \"Cucumber\"",
+    "time" : {
+      "start" : 1505582448868,
+      "stop" : 1505582452549,
+      "duration" : 3681
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I should find the first link for \"Cucumber1\" official site",
+    "title" : "Then I should find the first link for \"Cucumber1\" official site",
+    "time" : {
+      "start" : 1505582452549,
+      "stop" : 1505582452879,
+      "duration" : 330
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "attachment0",
+    "source" : "23593cf0-1530-4386-8065-4ae44ab559bd-attachment.png",
+    "type" : "image/png",
+    "size" : 86135,
+    "uid" : "3ecc596ec30dfa4"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "UC181137-TPL-A"
+  }, {
+    "name" : "thread",
+    "value" : "10388@UC181137-TPL-A.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "As a google user, I want to search for cucumber so that I can find it correctly"
+  }, {
+    "name" : "feature",
+    "value" : "As a google user, I want to search for cucumber so that I can find it correctly"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "story",
+    "value" : "Searching for cucumber NOT Correctly"
+  } ],
+  "parameters" : [ ]
+}

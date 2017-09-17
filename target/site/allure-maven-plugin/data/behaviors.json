@@ -1,0 +1,60 @@
+{
+  "features" : [ {
+    "title" : "As a google user, I want to search for cucumber so that I can find it correctly",
+    "statistic" : {
+      "total" : 2,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "8c442f0f3f67d471",
+      "title" : "Searching for cucumber correctly",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "265b6429aa1a17ee",
+        "name" : "Searching for cucumber correctly",
+        "title" : "Searching for cucumber correctly",
+        "time" : {
+          "start" : 1505582430566,
+          "stop" : 1505582446913,
+          "duration" : 16347
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "b38b910da76fb195",
+      "title" : "Searching for cucumber NOT Correctly",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "45dbdf6906b2fbf1",
+        "name" : "Searching for cucumber NOT Correctly",
+        "title" : "Searching for cucumber NOT Correctly",
+        "time" : {
+          "start" : 1505582447030,
+          "stop" : 1505582453889,
+          "duration" : 6859
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  } ]
+}
